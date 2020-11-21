@@ -1,0 +1,102 @@
+.mousse-follower-page{
+  position: absolute;
+  background-color: #5F196C;
+  width: 100%;
+  height: 100%;
+  cursor: none;
+}
+
+.mousse-follower-pointer-xgiant{
+  position: fixed;
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  //transition: all 100ms ease;
+  mix-blend-mode: difference;
+}
+
+.mousse-follower-pointer-giant{
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  transition: all 100ms ease;
+  mix-blend-mode: difference;
+}
+
+.mousse-follower-pointer-large{
+  position: fixed;
+  width: 9px;
+  height: 9px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  transition: all 150ms ease;
+  mix-blend-mode: difference;
+}
+
+.mousse-follower-pointer-medium{
+  position: fixed;
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  transition: all 200ms ease;
+  mix-blend-mode: difference;
+}
+
+.mousse-follower-pointer-small{
+  position: fixed;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  transition: all 250ms ease;
+  mix-blend-mode: difference;
+}
+
+.mousse-follower-pointer-xsmall{
+  position: fixed;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  transition: all 300ms ease;
+  mix-blend-mode: difference;
+}
+
+
+.mousse-follower-titre{
+  font-size: 100px;
+  font-style: oblique;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.hero-top{
+  //transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;
+  transform: matrix(0.9, 0, 0, 0.9, 0, 0); opacity: 0;
+  color : white;
+}
+/*
+<div class="hero-top" data-component-list="HeroTop" data-anim-scroll-group="HeroTop" style="transform: matrix(0.9, 0, 0, 0.9, 0, 0); opacity: 0; will-change: transform, opacity;">
+				<div class="hero-top-content section-content">
+					<div class="hero-copy large-10 large-centered medium-12">
+						<figure class="hero-icon apple-news-icon image-icon-news-plus" role="presentation"></figure>
+						<h1 class="hero-title typography-body-bold">Apple&nbsp;News+</h1>
+						<h2 class="hero-headline typography-section-headline">Hundreds of magazines <br> and leading newspapers.<br> One subscription.</h2>
+						<button class="button-news button-grand button-trial-download" data-url="applenewss://apple.news/subscription?itscg=10000&amp;itsct=nws-00-nws_ovp-try_hro-apl-lch-190325&amp;campaign_id=AN_Marcom_Hero" aria-label="Try Apple News+ free for 1 month" data-analytics-title="free trial-apple news plus" data-analytics-click="prop3:free trial-apple news plus" data-rid-relay="{&quot;285&quot;:&quot;itsct&quot;}">
+	Try 1 month free<span style="display:none"><span class="footnote footnote-supglyph"><a href="#footnote-1" aria-label="Footnote * symbol">*</a></span></span>
+</button> <button class="button-news button-grand button-trial-modal" data-modal-target="upgrade" aria-label="Try Apple News+ free for 1 month" data-analytics-title="free trial-apple news plus modal" data-analytics-click="prop3:free trial-apple news plus modal">
+	Try 1 month free<span style="display:none"><span class="footnote footnote-supglyph"><a href="#footnote-1" aria-label="Footnote * symbol">*</a></span></span>
+</button> </div>
+				</div>
+			</div> */
