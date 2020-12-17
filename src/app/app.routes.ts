@@ -9,7 +9,7 @@ export const appRoutes: Routes = [
     component: MousseFollowerComponent
   },
   {
-    path: "",
+    path: "/mesInfos",
     component: MiamiAnimateComponent
   }
 ];
