@@ -5,11 +5,11 @@ import { MousseFollowerComponent } from './resources/mousse-follower/mousse-foll
 
 export const appRoutes: Routes = [
   {
-    path: "",
+    path: "pointer",
     component: MousseFollowerComponent
   },
   {
-    path: "80",
+    path: "",
     component: MiamiAnimateComponent
   }
 ];
