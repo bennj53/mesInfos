@@ -24,13 +24,9 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "src/assets",
-                "output": "/mesInfos/assets"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
-
             "styles": [
               "src/styles.scss"
             ],
